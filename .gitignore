@@ -5,3 +5,5 @@
 /Interpreter/interpreter/bin/Debug
 /Interpreter/interpreter/obj/Debug
 *.suo
+/LexicalAnalyzer/LA/LA/obj/Debug
+/LexicalAnalyzer/LA/LA/bin/Debug
