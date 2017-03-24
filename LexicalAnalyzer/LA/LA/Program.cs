@@ -11,9 +11,20 @@ namespace LA
     {
         static void Main(string[] args)
         {
-            var dka = new DKA("test.txt");
-            //dka.PrintDKA();
-            dka.AnalyzeText("input.txt");
+            //  testovanie
+            //var dka = new DKA("test.txt");
+            //dka.AnalyzeText("input.txt");
+
+            //  odovzdavanie
+            try
+            {
+                var dka = new DKA(args[0]);
+                dka.AnalyzeText(args[1]);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
 
             Console.ReadKey();
         }
